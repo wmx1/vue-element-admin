@@ -1,0 +1,37 @@
+{
+  "id": "595473",
+  "name": "图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "122689",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "925060",
+      "name": "eye",
+      "font_class": "eye",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "2674477",
+      "name": "身份证",
+      "font_class": "shenfenzheng",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "5524685",
+      "name": "eye",
+      "font_class": "eye1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
