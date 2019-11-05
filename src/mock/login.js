@@ -26,6 +26,11 @@ export default {
   loginByUserName: config => {
     console.log('config', config)
     const { username } = JSON.parse(config.body)
+    console.log('userMap[username]', userMap[username])
+    return userMap[username]
+  },
+  getUserInfo: config => {
+    const { token } = JSON.parse(config.body)
     return userMap[username]
   }
 }

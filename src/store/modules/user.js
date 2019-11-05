@@ -3,7 +3,8 @@ import { loginByUsername } from '@/api/login'
 import { setToken } from '@/utils/auth'
 const state = {
   token: '',
-  name: ''
+  name: '',
+  roles: []
 }
 
 const mutations = {
@@ -12,6 +13,9 @@ const mutations = {
   },
   SET_NAME (state, name) {
     state.name = name
+  },
+  SET_ROLES (state, roles) {
+    state.roles = roles
   }
 }
 
@@ -30,12 +34,12 @@ const actions = {
         reject(err)
       })
     })
+  },
 
-    // axios.post('/login', {
-    //   username: username
-    // }).then(res => {
-    //   console.log(333, res)
-    // })
+  GetUserInfo ({ commit, state }) {
+    return new Promise((resolve, reject) => {
+
+    })
   }
 }
 export default {

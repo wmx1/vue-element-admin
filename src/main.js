@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import axios from 'axios'
 import App from './App.vue'
-import router from './router/index'
+import router from './router'
 import { Input, Form, FormItem, Button } from 'element-ui'
 import '@/mock' // mock模拟数据
 import '@/assets/fonts/iconfont.js'
